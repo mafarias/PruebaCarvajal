@@ -1,0 +1,14 @@
+﻿@{
+    ViewData["Title"] = "Inicio";
+}
+
+<form action="/Home/index" method="post"><br />
+    Nombre: <input type="text" name="Nombre" required> <br />
+    Apellido: <input type="text" name="Apellido" required/><br />
+    Tipo Documento: <select name="TipoDoc"></select><br />
+    Numero Documento: <input type="number name="NroDoc" required/><br />
+    PassWord<input type="password" name="PassWord" required/><br />
+    Email <input type="email" name="Email" required/><br />
+    <input type="submit" name="Guardar" value="Guardar" />
+
+</form>
