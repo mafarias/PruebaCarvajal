@@ -1,13 +1,13 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio 15
-VisualStudioVersion = 15.0.28307.779
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30104.148
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PruebaCarvajal", "PruebaCarvajal\PruebaCarvajal.csproj", "{7CD1BD8C-EE06-4D6A-8606-0861476114B0}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ApiRest", "ApiRest\ApiRest.csproj", "{A13ECBB3-0424-4C71-A8F0-1BBDF1414D51}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ApiRest", "ApiRest\ApiRest.csproj", "{A13ECBB3-0424-4C71-A8F0-1BBDF1414D51}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "NUnitTestProject1", "NUnitTestProject1\NUnitTestProject1.csproj", "{22E71A6D-B7E4-4648-B8D7-2F258F7C7BD1}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NUnitTestProject1", "NUnitTestProject1\NUnitTestProject1.csproj", "{22E71A6D-B7E4-4648-B8D7-2F258F7C7BD1}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SitioWeb", "SitioWeb\SitioWeb.csproj", "{24D7F43C-139B-432C-B981-E84B0251ADFA}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -15,10 +15,6 @@ Global
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{7CD1BD8C-EE06-4D6A-8606-0861476114B0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{7CD1BD8C-EE06-4D6A-8606-0861476114B0}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{7CD1BD8C-EE06-4D6A-8606-0861476114B0}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{7CD1BD8C-EE06-4D6A-8606-0861476114B0}.Release|Any CPU.Build.0 = Release|Any CPU
 		{A13ECBB3-0424-4C71-A8F0-1BBDF1414D51}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{A13ECBB3-0424-4C71-A8F0-1BBDF1414D51}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{A13ECBB3-0424-4C71-A8F0-1BBDF1414D51}.Release|Any CPU.ActiveCfg = Release|Any CPU
@@ -27,6 +23,10 @@ Global
 		{22E71A6D-B7E4-4648-B8D7-2F258F7C7BD1}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{22E71A6D-B7E4-4648-B8D7-2F258F7C7BD1}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{22E71A6D-B7E4-4648-B8D7-2F258F7C7BD1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{24D7F43C-139B-432C-B981-E84B0251ADFA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{24D7F43C-139B-432C-B981-E84B0251ADFA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{24D7F43C-139B-432C-B981-E84B0251ADFA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{24D7F43C-139B-432C-B981-E84B0251ADFA}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
